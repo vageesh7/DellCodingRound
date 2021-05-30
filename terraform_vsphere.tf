@@ -62,7 +62,7 @@ resource "vsphere_virtual_machine" "vm" {
     template_uuid = "${data.vsphere_virtual_machine.template.id}"
 	customize {
 	  network_interface {
-        ipv4_address = "10.241.110.12"
+            ipv4_address = "10.241.110.12"
       }
 	}
   }
